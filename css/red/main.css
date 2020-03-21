@@ -1,0 +1,45 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Bahnschrift SemiBold, sans-serif;
+	font-size: 18px;
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(to top, #e3273d, white);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.alert {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.info {
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 10%;
+}
+
+td {
+	border: 2px solid #e3273d;
+}
+
+.nav-bar {
+	display: inline-flex;
+	width: 100%;
+	margin: 2% 0 2% 0;
+}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

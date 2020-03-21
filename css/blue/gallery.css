@@ -1,0 +1,135 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Bahnschrift SemiBold, sans-serif;
+	font-size: 18px;
+}
+
+body {
+	min-height: 100vh;
+	background: linear-gradient(to top, #2a27e3, white);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.alert {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.nav-bar {
+	display: inline-flex;
+	width: 100%;
+	margin: 2% 0 2% 0;
+}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #2a27e3;
+	border-radius: 20px;
+	width: 30%;
+	padding: 3%;
+	max-height: 40vh;
+}
+
+.file_name {
+	width: 100%;
+	border: 2px solid #2a27e3;
+	border-radius: 20px;
+	padding: 2%;
+}
+
+.fieldset {
+	border: none;
+	width: 100%;
+}
+
+.label-wrap {
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	border: 2px solid #2a27e3;
+	border-radius: 20px;
+	padding: 3%;
+	height: 40px;
+	position: relative;
+}
+
+.file_name:hover {
+	border: 2px solid #2a27e3;
+	background-color: #2a27e3;
+}
+
+.label-wrap:hover {
+	border: 2px solid #2a27e3;
+	background-color: #2a27e3;
+}
+
+.label-text:hover {
+	background-color: #2a27e3;
+}
+
+.inputfile:hover {
+	background-color: #2a27e3;
+	cursor: pointer;
+}
+
+.inputfile {
+	opacity: 0;
+	position: absolute;
+	left: -150px;
+	top: 0;
+	line-height: 1;
+	width: 150%;
+	height: 40px;
+	z-index: 20;
+}
+
+.label {
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 100%;
+	border-radius: 20px;
+	border: 2px solid #2a27e3;
+	padding: 2%;
+	background-color: white;
+}
+
+.button:hover {
+	border: 2px solid #2a27e3;
+	background-color: #2a27e3;
+	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	margin: 5% 0 5% 0;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 20px;
+	border: 2px solid #2a27e3;
+	max-width: 50%;
+	max-height: 70vh;
+	overflow: auto;
+}

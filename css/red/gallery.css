@@ -1,0 +1,148 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Bahnschrift SemiBold, sans-serif;
+	font-size: 18px;
+}
+
+body {
+	min-height: 100vh;
+	background: linear-gradient(to top, #e3273d, white);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.alert {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.nav-bar {
+	display: inline-flex;
+	width: 100%;
+	margin: 2% 0 2% 0;
+}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #e3273d;
+	border-radius: 20px;
+	max-width: 30%;
+	padding: 3%;
+	max-height: 40vh;
+}
+
+.file_name {
+	width: 100%;
+	border: 2px solid #e3273d;
+	border-radius: 20px;
+	padding: 2%;
+}
+
+.fieldset {
+	border: none;
+	width: 100%;
+}
+
+.label-wrap {
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	border: 2px solid #e3273d;
+	border-radius: 20px;
+	padding: 3%;
+	height: 40px;
+	position: relative;
+}
+
+.file_name:hover {
+	border: 2px solid #e3273d;
+	background-color: #e3273d;
+}
+
+.label-wrap:hover {
+	border: 2px solid #e3273d;
+	background-color: #e3273d;
+}
+
+.label-text:hover {
+	background-color: #e3273d;
+}
+
+.inputfile:hover {
+	background-color: #e3273d;
+	cursor: pointer;
+}
+
+.inputfile {
+	opacity: 0;
+	position: absolute;
+	left: -150px;
+	top: 0;
+	line-height: 1;
+	width: 150%;
+	height: 40px;
+	z-index: 20;
+}
+
+.label {
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 100%;
+	border-radius: 20px;
+	border: 2px solid #e3273d;
+	padding: 2%;
+	background-color: white;
+}
+
+.button:hover {
+	border: 2px solid #e3273d;
+	background-color: #e3273d;
+	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	margin: 5% 0 5% 0;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 20px;
+	border: 2px solid #e3273d;
+	max-width: 50%;
+	max-height: 70vh;
+	overflow: auto;
+}
+
+.col {
+	border: 2px solid #e3273d;
+	margin: 2%;
+	max-width: 350px;
+	max-height: 350px;
+}
+
+.no-col {
+	margin: 2%;
+	width: 96%;
+	text-align: center;
+}

@@ -1,0 +1,77 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Bahnschrift SemiBold, sans-serif;
+	font-size: 18px;
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(to top, #e3273d, white);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.alert {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.nav-bar {
+	display: inline-flex;
+	width: 100%;
+	margin: 2% 0 2% 0;
+}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.style-form {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #e3273d;
+	border-radius: 20px;
+	width: 30%;
+	padding: 3% 3% 5% 3%;
+	margin-top: 10%;
+}
+
+.fieldset {
+	border: none;
+	width: 100%;
+}
+
+.label-wrap {
+	margin-bottom: 5%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.select {
+	width: 100%;
+	border: 2px solid #e3273d;
+	border-radius: 20px;
+	padding: 3%;
+}
+
+.button {
+	margin-top: 10%;
+	width: 90%;
+	border-radius: 20px;
+	border: 2px solid #e3273d;
+	padding: 2%;
+	background-color: white;
+}
+
+.button:hover {
+	background-color: #e3273d;
+	cursor: pointer;
+}

@@ -1,0 +1,72 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Bahnschrift SemiBold, sans-serif;
+	font-size: 18px;
+}
+
+body {
+	min-height: 100vh;
+	background: linear-gradient(to top, #2a27e3, white);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.alert {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.form {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #2a27e3;
+	border-radius: 20px;
+	width: 30%;
+	padding: 3% 3% 5% 3%;
+}
+
+.fieldset {
+	border: none;
+	width: 100%;
+}
+
+.label-wrap {
+	margin-bottom: 5%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.form__login, .form__password, .form__name, .form__lastname, .form__birthdate {
+	width: 100%;
+	border: 2px solid #2a27e3;
+	border-radius: 20px;
+	padding: 3%;
+}
+
+.form__login:hover, .form__password:hover, .form__name:hover, .form__lastname:hover, .form__birthdate:hover {
+	background-color: #2a27e3;
+	border: 2px solid #2a27e3;
+}
+
+.form__login:focus, .form__password:focus, .form__name:focus, .form__lastname:focus, .form__birthdate:focus {
+	background-color: #2a27e3;
+	border: 2px solid white;
+}
+
+.button {
+	margin-top: 10%;
+	width: 90%;
+	border-radius: 20px;
+	border: 2px solid #2a27e3;
+	padding: 2%;
+	background-color: white;
+}
+
+.button:hover {
+	background-color: #2a27e3;
+	cursor: pointer;
+	border: 2px solid white;
+}
